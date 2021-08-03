@@ -276,7 +276,7 @@ To avoid setting remoteName and branchName every time we push, set a link betwee
     git push -u remoteName branchName
     git push --set-upstream remoteName branchName
 
-> When setting this connection, we can push using the shortcut `git push`
+> When setting this connection, we can push using the shortcut `git push`.
 
 To push a commit that used *amend* flag:
 
