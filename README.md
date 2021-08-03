@@ -309,4 +309,4 @@ Retrieve changes shortcut:
 
     git pull
 
-> Using this, it's assumed remote will default to origin and branch will default to whatever connection is configured for your current branch.
+> Using this, it's assumed remote will default to origin and branch will default to whatever connection is configured for your current branch
