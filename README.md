@@ -229,8 +229,18 @@ Switch to a feature branch and rebase onto master:
     git switch feature
     git rebase master
 
-> Rebasing a feature branch onto a master branch moves the entire feature branch so that it BEGINS at the tip of the master branch. 
+> Rebasing a feature branch onto master branch moves the entire feature branch so that it BEGINS at the tip of the master branch. 
 > Instead of using a merge commit, rebasing rewrites history by creating new commits for each of the original feature branch commits.
+
+#### Rewriting history
+
+Interactive rebase:
+
+    git rebase -i HEAD~4
+
+> Interactive rebase allows to edit commits, add files, drop commits, etc. Note we need to specify how far back we want to rewrite commits.
+> Also, notice we're not rebasing onto another branch. Instead, we are rebasing a series of commits onto the HEAD they are currently based on.
+
 ## Sharing and Updating Projects
 
 #### Remotes
