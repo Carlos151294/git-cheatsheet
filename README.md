@@ -40,7 +40,7 @@ This also helps update the commit message from the previous commit. But if you d
 
     git commit --amend --no-edit
 
-> Only amend commits that are still local and have not been pushed somewhere
+> Only amend commits that are still local and have not been pushed somewhere.
 
 #### Logging
 
