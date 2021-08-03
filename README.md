@@ -298,7 +298,7 @@ Fetch a specific branch from a remote:
 
     git fetch remoteName branchName
 
-> Fetching allows to download changes from a remote repository to your local repository, but your working directory stays the same. 
+> Fetching allows to download changes from a remote repository to your local repository, but your working directory stays the same
 > Think of it as *"please go and get the latest from Github, but don't screw up my working directory"*.
 
 Retrieve changes from a remote repository:
@@ -309,4 +309,4 @@ Retrieve changes shortcut:
 
     git pull
 
-> Using this, it's assumed remote will default to origin and branch will default to whatever connection is configured for your current branch.
+> Using this, it's assumed remote will default to origin and branch will default to whatever connection is configured for your current branch
