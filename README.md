@@ -40,7 +40,7 @@ This also helps update the commit message from the previous commit. But if you d
 
     git commit --amend --no-edit
 
-> Only amend commits that are still local and have not been pushed somewhere
+> Only amend commits that are still local and have not been pushed somewhere.
 
 #### Logging
 
@@ -67,7 +67,7 @@ Travel and check out old commits by referencing previous commits relative to HEA
 
     git checkout HEAD~1
 
-> HEAD\~1 refers to the commit before HEAD. HEAD\~2 refers to 2 commits before HEAD.
+> HEAD\~1 refers to the commit before HEAD. HEAD\~2 refers to 2 commits before HEAD
 
 Travel and check out remote branches:
 
