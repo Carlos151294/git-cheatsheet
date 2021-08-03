@@ -40,7 +40,7 @@ This also helps update the commit message from the previous commit. But if you d
 
     git commit --amend --no-edit
 
-> Only amend commits that are still local and have not been pushed somewhere.
+> Only amend commits that are still local and have not been pushed somewhere
 
 #### Logging
 
@@ -276,7 +276,7 @@ To avoid setting remoteName and branchName every time we push, set a link betwee
     git push -u remoteName branchName
     git push --set-upstream remoteName branchName
 
-> When setting this connection, we can push using the shortcut `git push`
+> When setting this connection, we can push using the shortcut `git push`.
 
 To push a commit that used *amend* flag:
 
@@ -309,4 +309,4 @@ Retrieve changes shortcut:
 
     git pull
 
-> Using this, it's assumed remote will default to origin and branch will default to whatever connection is configured for your current branch
+> Using this, it's assumed remote will default to origin and branch will default to whatever connection is configured for your current branch.
